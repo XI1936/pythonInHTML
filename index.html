@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python in HTML</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<style>
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 800;
+        margin: 5px;
+    }
+</style>
+
+<body>
+    <h1>This page is using Pyscript</h1>
+    <py-script>
+        print("Hello World!")
+    </py-script>
+
+    <py-script>
+        print("Value of Pie %f" %(22/7))
+    </py-script>
+
+    <py-repl></py-repl>
+</body>
+
+</html>
